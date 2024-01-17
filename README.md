@@ -1,53 +1,49 @@
-# 3Bus Energy System Topology for an OPF example
+# HyperLedger Fabric Basics
 
-A simple proof of concept of an energy blockchain with the usage of pandapower and power network topology from scratch
+Basics for the usage of Hyperledger Fabric so as to be used in conjuction 
 
 ## Description
 
-An Optimal Power Flow solution based with the usage of a python library for network solving.
-Official Documentation of pandapower could be found [here](https://pandapower.readthedocs.io/en/v2.2.0/index.html)
+Based on the official [documentantion](https://hyperledger-fabric.readthedocs.io/en/release-2.0/whatis.html) of the HyperLedger Fabric (for now on HF) 
 
 ## Table of Contents
 
-- [3Bus Energy System Topology for an OPF example](#3bus-energy-system-topology-for-an-opf-example)
+- [HyperLedger Fabric Basics](#hyperledger-fabric-basics)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
-  - [Installation and Usage](#installation-and-usage)
+  - [Installation and Prerequisites (Test Network approach)](#installation-and-prerequisites-test-network-approach)
+      - [Prerequistities](#prerequistities)
+      - [Installation](#installation)
   - [Features](#features)
   - [Future Work](#future-work)
   - [Contact](#contact)
 
-## Installation and Usage
-The system should have a latest version of python
+## Installation and Prerequisites (Test Network approach)
 
-Clone the current repository or download as a .zip
+#### Prerequistities
+* Based on the HF docs the system should include the following packages and the detailed steps could be found [here](https://hyperledger-fabric.readthedocs.io/en/release-2.0/prereqs.html).
+#### Installation
+  Based on the official docs, which could be found [here](https://hyperledger-fabric.readthedocs.io/en/release-2.0/install.html).
+<br>
+* ```git clone https://github.com/hyperledger/fabric-samples```
+<br>
+* ```install the extra binaries```(based on the running OS)
+<br>
+* ```./network.sh up```
+<br>
 
-Run ```pip install pandapower["all"]```
-
-And the navigate to "main.ipynb"
 
 
 ## Features 
 
-The below network is been modelled with the help of pandapower and a simple simpulation of an Optimal Power Flow have run.
-Pandapower is a fast an interactive way to create topologies from scratch and it is also compatitable with Matpower for the import of export to the desired format.
- 
-The solution was stored to ```.json``` format and in ```.mat``` format as a Matpower compatitable and could be found under the ```saved-topologies``` folder.
+HF is a B2B oriented blockchain without an underlying asset.As an Open Source it is free os usage.
+Moreover it supports SDKs for GoLand, Java, Node.js and Python and the corresponding samples could be found in the ```smart-contracts``` folder.
 
-Below is been represented a visual representation of the network.
-
-Moreover pandapower supports ```Julia || .jl``` with the usage of Python as interface for the Optimization of Power System Problems.\
-Official Documentation could be found [here](https://pandapower.readthedocs.io/en/v2.0.1/opf/powermodels.html)
-
-<img src="./img/3bus.png">
 
 ## Future Work
 
-Step-3 as it is said.
-\
-Private kept for the due dilligence of both of us.
-\
-Pending to be private as a repo
+Smart Contracts for settlement of the cost functions and the wrap-up of the ```pandapower``` && ```HF smart-contract``` in a Decentrilized Application.\
+HF has also a lot of upcoming [events](https://lists.hyperledger.org/g/labs/calendar)(kept here for easy access).
 
 ## Contact
 
