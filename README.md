@@ -24,13 +24,9 @@ Based on the official [documentantion](https://hyperledger-fabric.readthedocs.io
 * Based on the HF docs the system should include the following packages and the detailed steps could be found [here](https://hyperledger-fabric.readthedocs.io/en/release-2.0/prereqs.html).
 #### Installation
   Based on the official docs, which could be found [here](https://hyperledger-fabric.readthedocs.io/en/release-2.0/install.html).
-<br>
 * ```git clone https://github.com/hyperledger/fabric-samples```
-<br>
 * ```install the extra binaries```(based on the running OS)
-<br>
 * ```./network.sh up```
-<br>
 
 
 
