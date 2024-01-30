@@ -14,6 +14,7 @@ Official Documentation of pandapower could be found [here](https://pandapower.re
   - [Table of Contents](#table-of-contents)
   - [Installation and Usage](#installation-and-usage)
   - [Features](#features)
+  - [Notebooks](#notebooks)
   - [Future Work](#future-work)
   - [Contact](#contact)
 
@@ -41,13 +42,16 @@ Official Documentation could be found [here](https://pandapower.readthedocs.io/e
 
 <img src="./img/3bus.png">
 
+## Notebooks
+
+The `main` notebook creates the 3-bus topology.\
+The `Economic-Dispatch` formulates the economic problem to a linear programming problem and solves it.\
+The `PTDF_LODF` computers the matrices of the Power Transger Distribution Factors and Line Outage Distribution Factors.
+
 ## Future Work
 
 Step-3 as it is said.
-\
-Private kept for the due dilligence of both of us.
-\
-Pending to be private as a repo
+
 
 ## Contact
 
